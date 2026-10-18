@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-black: #030712;
+    --card-bg: rgba(17, 24, 39, 0.45);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --card-border-hover: rgba(56, 189, 248, 0.3);
+    
+    --text-heading: #f9fafb;
+    --text-body: #9ca3af;
+    --text-muted: #6b7280;
+    
+    --primary-neon: #38bdf8;
+    --purple-neon: #818cf8;
+    --gradient-glow: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+    
+    --font-heading: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    
+    --radius-xl: 24px;
+    --radius-lg: 16px;
+}
+
+
+body {
+    background-color:rgb(255, 255, 255);
+ 
+ }
+ 
+
+ #cabeceraweb{
+    background-color:#636699;
+ 
+ }
+ #navegacionprincipal{
+    background-color:#3b7d81;
+    
+ }
+ 
+ #barralateral{
+    background-color:#4e6163;
+    float:left;
+    margin-top: 10px;
+ 
+ }
+ #contenidoprincipal{
+    background-color:#ffffff;
+  margin-left:100px; /*  separacion del borde */
+    padding-left:50px; /*separacion de la letra*/
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+   
+ }
+
+ .tarjeta {
+   background: var(--card-bg);
+   border: 1px solid var(--card-border);
+   backdrop-filter: blur(16px);
+   -webkit-backdrop-filter: blur(16px);
+   border-radius: var(--radius-xl);
+   padding: 40px;
+   transition: border-color 0.3s, transform 0.3s;
+}
+
+.tarjeta:hover {
+   border-color: var(--card-border-hover);
+}
+
+.tarjeta-header {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   margin-bottom: 20px;
+}
+
+ #titulo1{
+   
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 20px;
+    color: rgb(138, 138, 148);
+
+
+
+
+ }
+ 
+ #parrafo1{
+ 
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 20px;
+    color: rgb(36, 36, 39);
+
+
+
+ }
+
+ #pieprincipal{
+    background-color:#507ea1;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 10px;
+    color: rgb(30, 30, 32);
+
+ 
+ }
+ li{
+    background-color:#28CF98;
+    display:inline;
+  
+ 
+ }
+ .parrafo2{
+
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 20px;
+    color: rgb(36, 36, 39);
+ }
+
+
+ figure{ 
+ 
+   display:inline-block;
+   
+  }
+  
+ 
+figure img{
+padding:4px;
+background:#999999;
+border-radius:20px;
+-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+}
+
+figure img:hover{
+-webkit-transform:scale(1.2);
+}
+
+img {
+
+display:block;
+
+margin: 0 auto;
+
+
+width: 400px;
+
+
+
+
+
+
+}
+
+
+
+
+.seccion-quienes-somos {
+
+text-align: center;
+
+
+
+
+
+
+}
+.form{
+	position:relative;
+	width:500px;
+	height:200px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#e5dfcd;
+	border-radius: 20px;
+	margin:auto;
+	margin-bottom:50px;
+}
+	
+
+
+table
+{
+  border-collapse: collapse;
+  height:200px;
+  width:800px;
+  background:#FF0;
+  border:double;
+}
+
+
+
+/*
+
+th
+{
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 0.5em;
+  background-color:#6495ed;;
+}
+
+thead th
+{
+  background-color: #6495ed;
+  color: #fff;
+}
+
+tbody th
+{
+  font-family:arial;
+  font-weight: normal;
+  background-color: #6495ed;
+  color:#ff0;
+}
+*/
+td {
+  border: 1px solid #000;
+  padding: .5em;
+  background-color:#ed8f63;
+  width:100px;
+  text-align:center;
+}
